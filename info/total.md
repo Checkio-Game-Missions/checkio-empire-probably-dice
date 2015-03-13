@@ -1,5 +1,4 @@
-The battle is full of randomnesses. You should be ready.
-Take dices for start.
+Battle is full of randomnesses. You should observe randomness in a controlled setting to prepare for this inevitability. We'll start by rolling the dice.
 
 Typically, when using multiple dice, you simply roll them and sum up all the result.
 To get started with your investigation of dice probability, write a function that takes the number of dice,
@@ -35,7 +34,7 @@ probability(10, 10, 50) == 0.0375
 ```
 **How it is used:**
 
-This task illustrates some of the basics of probability.
+This task illustrates basic probability.
 Many events can be described as the combination of other events.
 In this case you're combining several dice into one total to crit the Orc King for massive damage.
 
