@@ -13,9 +13,9 @@ Validator.PRECISION = 4
 
 class Referee(RefereeBase):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "probability"
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
+    DEFAULT_FUNCTION_NAME = "probability"
     VALIDATOR = Validator
     ENV_COVERCODE = {
         "python_2": covercodes.py_unwrap_args,

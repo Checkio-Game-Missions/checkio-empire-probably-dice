@@ -43,5 +43,5 @@ api.add_listener(
             'python-27': cover_codes.unwrap_args,
             'python-3': cover_codes.unwrap_args
         },
-        function_name="probability"
+        DEFAULT_FUNCTION_NAME="probability"
         ).on_ready)
