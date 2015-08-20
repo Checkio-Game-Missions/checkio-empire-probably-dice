@@ -12,6 +12,7 @@ if (!global.is_checking) {
         significantDigits = significantDigits || 4;
         var precision = Math.pow(0.1, significantDigits);
         return Math.abs(expected - actual) < precision;
+
     };
 
     assert(almostEqual(probability(2, 6, 3), 0.0556), "Basic example");
@@ -21,4 +22,5 @@ if (!global.is_checking) {
     assert(almostEqual(probability(2, 3, 7), 0.0000), "Never!");
     assert(almostEqual(probability(3, 6, 7), 0.0694), "Three dice");
     assert(almostEqual(probability(10, 10, 50), 0.0375), "Many dice, many sides");
+    console.log("Earn cool rewards by using the 'Check' button!");
 }
