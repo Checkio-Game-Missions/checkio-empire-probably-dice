@@ -15,3 +15,5 @@ if __name__ == '__main__':
     assert (almost_equal(probability(2, 3, 7), 0.0000)), "Never!"
     assert (almost_equal(probability(3, 6, 7), 0.0694)), "Three dice"
     assert (almost_equal(probability(10, 10, 50), 0.0375)), "Many dice, many sides"
+
+    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
